@@ -1,0 +1,252 @@
+:root{
+    --colorPrimario: #00669F;
+    --colorSecundario: #1CD1B0;
+    --colorTerciario: #F3F3F3;
+    --colorfinal: #001D2D; 
+    --sombra: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter','sans-serif';
+    color: white;
+}
+
+body{
+background-color: #fff;
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: var(--colorPrimario);
+    box-shadow: var(--sombra);
+    height: 140px;
+    width: 100%;
+   
+}
+header div{
+    background-color: var(--colorSecundario);
+    height: 38px;
+}
+header div span{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 10px;
+  }
+  
+  header h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    padding: 28px;
+  }
+/*
+  section{
+      
+      
+      margin: 60px auto;
+      width: 95%;
+  }
+  section article{
+      background-color: var(--colorTerciario);
+      width: 300px;
+      height: 529px;
+      display: inline-block;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      margin: 10px;
+      padding-bottom: 40px;
+     
+      
+  }
+  section article figure{
+      position: relative;
+      height: 193px;
+      width: 100%;
+  }
+  section article div{
+      text-align: center;
+      position: relative;
+      font-weight: normal;
+  }
+
+  
+  section article div h2{
+      
+      line-height: 30px;
+      margin: 30px;
+      margin-top: 70px;
+      font-size: 30px;
+      font-weight: normal;
+    }
+    section article div img{
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        top: -50px;
+        left: 30%;
+        
+        
+      }
+
+  section article div p{
+      padding: 20px;
+      text-align: justify;
+
+  }
+
+  section article div a{
+
+      text-decoration: none;
+      background-color: var(--colorPrimario);
+      width: 128px;
+      height: 50px;
+      color: #fff;
+      display: block;
+      margin:  auto;
+      padding: 12px;
+      bottom: 40px;
+      border-radius: 5px;
+      
+  }
+
+  .heart{
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      
+  }*/
+
+main{
+    height:700px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+main h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+  form{
+      background-image: url(/dc.jfif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 830px;
+      width: 950px;
+      border-radius: 20px;
+      text-align: center;
+      padding: 30px;
+      padding-right: 100px;
+      padding-left: 100px;
+      
+  }
+  .column{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+  .first-section{
+      
+      display: flex;
+      flex-direction: column;
+     
+      width: 150px;
+      justify-content: space-between;      
+  }
+ 
+form div{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  .especie{
+    background-color: white;
+    border-radius: 16px;
+    height:60px ;
+    width: 340px;
+  }
+input[type="text"], input[type="date"]{
+    background-color: white;
+    border-radius: 16px;
+    height:60px ;
+    width: 340px;
+}
+input[type="file"]{
+    width: 340px;
+    height: 60px;
+    margin-top: 2rem;
+}
+
+
+.second-section{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+textarea{
+    height: 300px;
+    width: 350px;
+    border-radius: 16px;
+}
+.title{
+   text-align: center;
+    align-items: center;
+    width: 500px;
+    display: inline-block;
+    margin-left:100px ;
+}
+label{
+    display: inline-block;
+
+}
+
+
+.checkbox{
+    width: 350px;
+   display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1rem;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.checkbox input{
+    width: 24px;
+    height: 20px;
+   
+}
+.radio{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: justify;
+}
+button{
+    width: 460PX;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: #000000;
+    transition: all 1000ms;
+    background-color: rgb(28, 209, 176);
+}
+button:hover{
+   
+    color: white;
+    background-color: rgba(28,209,176,0.5);
+    transform: scale(1.2, 1.2);
+
+}
+input{
+    transition: all 500ms;
+}
+input:focus {
+    background-color: red;
+  }
